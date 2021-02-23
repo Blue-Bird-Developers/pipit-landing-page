@@ -31,7 +31,13 @@ module.exports = {
     es6: true,
   },
   rules: {
-    'prettier/prettier': ['error', {}, { usePrettierrc: true }],
+    'prettier/prettier': [
+      'error',
+      {
+        usePrettierrc: true,
+        endOfLine: 'auto',
+      },
+    ],
     'react/prefer-stateless-function': ['off'],
     'react/jsx-filename-extension': ['off'],
     'react/jsx-one-expression-per-line': ['off'],

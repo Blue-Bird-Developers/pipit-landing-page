@@ -7,13 +7,13 @@ import MainPage from './MainPage';
 export default function Home() {
   return (
     <>
-    <div>
-      <Head>
-        <title>Pipit Landing Page</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
-    </div>
-          <MainPage />
+      <div>
+        <Head>
+          <title>숙명인을 위한 커뮤니티, 피핏!</title>
+          <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        </Head>
+      </div>
+      <MainPage />
     </>
   );
 }

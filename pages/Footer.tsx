@@ -5,7 +5,7 @@ const Footer = () => {
     <>
       <Wrapper>
         <h3>Pipit Coming Soon!</h3>
-        <figure className="__footer-img">
+        <figure className="__footer-img" data-aos="zoom-in">
           <img src="/footer-bird.png"></img>
         </figure>
         <p>

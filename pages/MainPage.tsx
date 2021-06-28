@@ -12,6 +12,7 @@ const Fullpage = () => (
     licenseKey="YOUR_KEY_HERE"
     scrollingSpeed={750} /* Options here */
     navigation={true}
+    scrollBar={true}
     render={({ state, fullpageApi }) => {
       return (
         <ReactFullpage.Wrapper>

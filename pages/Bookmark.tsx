@@ -15,7 +15,7 @@ const Bookmark = () => {
             </span>
           </div>
           <div className="right-container">
-            <figure className="__phone-img">
+            <figure className="__phone-img" data-aos="fade-up">
               <img src="/bookmark.png"></img>
             </figure>
           </div>

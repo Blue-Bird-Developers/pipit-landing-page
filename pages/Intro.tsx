@@ -16,7 +16,7 @@ const Intro = () => {
               <img className="__download-btn" src="/google_download.png"></img>
             </p>
           </div>
-          <figure className="__bird">
+          <figure className="__bird" data-aos="fade-down">
             <img src="/bird.png"></img>
           </figure>
         </Title>

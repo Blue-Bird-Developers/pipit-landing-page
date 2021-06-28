@@ -5,7 +5,7 @@ const Notice = () => {
     <>
       <Wrapper>
         <div className="left-container">
-          <figure className="__phone-img">
+          <figure className="__phone-img" data-aos="fade-up">
             <img src="./notice-phone.png"></img>
           </figure>
         </div>

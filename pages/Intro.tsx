@@ -37,7 +37,7 @@ const Wrapper = styled.div`
 const Title = styled.section`
   display: flex;
   margin: auto;
-  width: 63%;
+
   justify-content: space-around;
   .left-container {
     display: flex;

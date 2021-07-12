@@ -8,7 +8,7 @@ const Footer = () => {
         <figure className="__footer-img" data-aos="zoom-in">
           <img src="/footer-bird.png"></img>
         </figure>
-        <p>
+        <p className="__btn-group">
           <img className="__download-btn" src="/ios_download_black.png"></img>
           <img className="__download-btn" src="/google_download_black.png"></img>
         </p>
@@ -29,8 +29,13 @@ const Wrapper = styled.section`
     color: #345ce0;
     margin-bottom: 4rem;
   }
+  .__btn-group {
+    display: flex;
+    align-self: center;
+  }
   .__footer-img {
     margin-bottom: 2rem;
+    align-self: center;
   }
   .__download-btn {
     margin-right: 1rem;
